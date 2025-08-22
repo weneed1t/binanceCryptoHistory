@@ -54,14 +54,8 @@ Each JSON file contains complete market data with the following fields:
 ## 🛠 Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.10 or higher
 - pip (Python package manager)
-
-### Step-by-Step Setup
-
-1. **Clone the repository**:
-```bash
-git clone https://github.com/yourusername/binance-historical-data-fetcher.git
-cd binance-historical-data-fetcher
-```
+- pip install python-binance==1.0.29
+- pip install python-dateutil==2.9.0.post0
 
