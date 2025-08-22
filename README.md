@@ -3,6 +3,11 @@
 
 A robust Python script designed to fetch, process, and store historical cryptocurrency market data from Binance exchange with professional-grade reliability and comprehensive data formatting.
 
+**example**:
+```bash
+python main.py --assets BTC ETH BNB --resolution 1h --start-date 2020-01-01 --end-date 2020-02-20 --output-folder crypto_data_test
+```
+
 ## 🚀 Overview
 
 This tool automatically retrieves historical OHLCV (Open, High, Low, Close, Volume) market data for specified cryptocurrencies from Binance's API. It processes the raw data into structured JSON format with additional temporal features, making it ideal for:
@@ -58,3 +63,5 @@ Each JSON file contains complete market data with the following fields:
 ```bash
 git clone https://github.com/yourusername/binance-historical-data-fetcher.git
 cd binance-historical-data-fetcher
+```
+
